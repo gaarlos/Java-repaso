@@ -3,7 +3,7 @@
  * y elimine todos los elementos menores que la media.
  */
 
-class ArrayUtils {
+class Ejercicio1 {
 
   public static void main (String [] args) {
     int n = 5;
@@ -22,7 +22,7 @@ class ArrayUtils {
    * 
    * @param arr Array
    * @param n Size of 'arr'
-   * @return New size of 'arr'S
+   * @return New size of 'arr'
    */
   public static int eliminar (int [] arr, int n) {
     double media = media(arr, n);
