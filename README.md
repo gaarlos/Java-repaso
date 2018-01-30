@@ -14,4 +14,4 @@
 
 ### Índice
 
-- [Exámen de Arrays 2015](arrays2015)
+- [Exámen de Arrays 2015](arrays2015/src)
