@@ -79,18 +79,17 @@ que reciba un número de n cifras y devuelva
 Por ej.: 22454 se devolvería el 4 que se repite el mismo número de veces que el 2, pero 4 es mayor que 2.
 **(0.5 puntos)**
 
-#### [3. Los números Catalán deben su nombre al matemático belga Eugène Catalan (1814-1894).](ej3)
+#### [3. Los números Catalán deben su nombre al matemático belga Eugène Catalan (1814-1894).](ej3/ej3.java)
 
 1,2,5 ,14, 42 ,132, 429 ,1430,4862,16796, 58786 ,208012,... números Catalan para n=1,2, ...
 
-El número Catalán n: catalanN = (2*n)!
-(n+1)!*n!
+El número Catalán n: catalanN = (2*n)!/(n+1)!*n!
+
 
 ```
-a. Se pide diseñar un método main () que nos permita calcular la suma de los primeros x
+Se pide diseñar un método main () que nos permita calcular la suma de los primeros x
 números Catalán solo para los n que sean primos n=1,2,3,5,7,11,13, ...
-Por ej. si x =7 se sumarían los catalán para n =1,2,3,5,7,11,
-(puede resolverse mediante Nassi-Schneiderman ó en Java)
+Por ej. si x =7 se sumarían los catalán para n =1,2,3,5,7,11
 ```
 **(4 puntos)**
 
