@@ -69,23 +69,7 @@ en un número entero de n cifras. Se mostrará el resultado.
 Por ej: 215610 si el dígito es 1 mostraría 2 (el 1 se repite 2 veces)
 **(0.5 puntos)**
 
-[b. Diseñar un algoritmo que nos permita obtener cuál es el dígito más repetido](ej2/b.java)
-
-en un número de n cifras.
-
-```
-Por ej.: 31 333 el dígito más repetido es el 3 que se repite 4 veces
-```
-
-* Si no se repite ninguno de los dígitos (todos los dígitos son distintos) se mostrará un mensaje
-“NO HAY DÍGITOS REPETIDOS”
-* Si hay dos o más dígitos que se repiten el mismo número de veces se mostrará el mensaje
-“VARIOS DÍGITOS SON LOS QUE MÁS SE REPITEN”
-* Si hay un único dígito que es el que más se repite se mostrará el mensaje
-> “EL DÍGITO QUE MÁS SE REPITE ES:” digitoRepetido
-**(1 punto)**
-
-[c. Diseñar en Java un método estático en MisMetodosmas seRepite()](ej2/c.java)
+[b. Diseñar en Java un método estático en MisMetodos masSeRepite()](ej2/b.java)
 que reciba un número de n cifras y devuelva
 
 * \-1 si ninguno se repite

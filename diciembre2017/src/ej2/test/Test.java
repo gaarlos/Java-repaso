@@ -2,23 +2,40 @@ package ej2.test;
 
 public class Test {
   public static void main (String [] args) {
-    // TEST A
     MisMetodos mm = new MisMetodos();
-    System.out.println(mm.repite(1234789111, 1));
-
-    // TEST B
+    System.out.println(mm.masSeRepite(22454));
   }
 }
 
 class MisMetodos {
   public MisMetodos () {}
 
-  public int repite (int n, int d) {
+  public int masSeRepite (int n) {
     int[] nArr = toArray(n);
-    int count = 0;
+    int min = 1;
+    int dig = 0;
+    int aux;
 
     for (int i = 0; i < nArr.length; i++) {
-      if (nArr[i] == d)
+      aux = repite(nArr, nArr[i]);
+
+      if (aux > min && nArr[i] > dig) {
+        min = aux;
+        dig = nArr[i];
+      }
+    }
+
+    if (min == 1)
+      return -1;
+
+    return dig;
+  }
+
+  public int repite (int[] n, int d) {
+    int count = 0;
+
+    for (int i = 0; i < n.length; i++) {
+      if (n[i] == d)
         count++;
     }
 
