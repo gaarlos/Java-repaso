@@ -1,6 +1,6 @@
 package ej1.test;
 
-public class Fecha {
+public class Fecha implements Comparable {
   private int dia;
   private int mes;
   private int agno;
