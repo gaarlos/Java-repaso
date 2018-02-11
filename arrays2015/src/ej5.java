@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * 5. Realizar un método public static int composición(char [] texto, int n, int m) {...}
  * que recibe un array de caracteres texto, de n caracteres y visualiza línea a línea su contenido.
