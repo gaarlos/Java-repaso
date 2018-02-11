@@ -2,6 +2,12 @@
 
 > Sólo ficheros .java
 
+### Índice
+
+- [Exámen de Arrays 2015](arrays2015/src)
+- [Exámen Diciembre 2017](diciembre2017/src)
+- [Examen Listas 2016](listas2016/src)
+
 ### ¿Qué se repasa?
 
 - Algoritmica
@@ -23,13 +29,7 @@
   - Colecciones
     - Listas enlazadas
     - ArrayList
+    - TreeSet
     - ArrayMap
     - HashMap
     - TreeMap
-    - TreeSet
-
-### Índice
-
-- [Exámen de Arrays 2015](arrays2015/src)
-- [Exámen Diciembre 2017](diciembre2017/src)
-- [Examen Listas 2016](listas2016/src)

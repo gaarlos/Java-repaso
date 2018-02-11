@@ -22,7 +22,7 @@ class Lista {
     System.out.println();
   }
 
-  public void eliminar () {
+  public void eliminarPenultimo () {
     Nodo p = this.comienzo.getSig().getSig();
     Nodo aux = this.comienzo;
 
